@@ -1,7 +1,10 @@
 import { Header } from "@/components/Header";
 import { MarketStats } from "@/components/MarketStats";
 import { TrendingCards } from "@/components/TrendingCards";
+import { WatchlistSection } from "@/components/WatchlistSection";
+import { NewsSection } from "@/components/NewsSection";
 import { CardTable } from "@/components/CardTable";
+import { Footer } from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -10,8 +13,11 @@ const Index = () => {
       <main>
         <MarketStats />
         <TrendingCards />
+        <WatchlistSection />
+        <NewsSection />
         <CardTable />
       </main>
+      <Footer />
     </div>
   );
 };
